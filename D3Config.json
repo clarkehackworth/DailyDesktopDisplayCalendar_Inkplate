@@ -1,0 +1,6 @@
+{
+ "wifiSSID":"WIFISSID",
+ "wifiPassword":"WIFIPassword",
+ "ntpServer":"us.pool.ntp.org",
+ "TimzoneOffsetSeconds":"-21600"
+}
