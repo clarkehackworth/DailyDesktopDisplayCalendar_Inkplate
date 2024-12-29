@@ -45,14 +45,6 @@ const uint8_t low_battery_icon[] PROGMEM = {
 int low_battery_icon_w = 20;
 int low_battery_icon_h = 12;
 
-volatile int _alarmFlag = 0;      // Variable to store alarm flag
-
-void IRAM_ATTR alarmISR()         // This function will be called when alarm interrupt event happens
-{                                 // NOTE: Function must be above setup() and loop()!
-  _alarmFlag = 1;                 // Set alarm flag
-  Serial.print("alarm");
-}
-
 void setup()
 {
 
