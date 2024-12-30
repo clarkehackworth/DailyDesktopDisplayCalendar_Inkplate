@@ -1,4 +1,4 @@
-# DailyDesktopDisplayCalendar_Inkplate
+# Daily Desktop Display Calendar for Inkplate
 A daily desktop firmware for the Inkplate 6 color https://soldered.com/product/inkplate-6color-color-e-paper-board-copy/
 This will display a new image every day. If you make the images with the month and day on them, it becomes a daily desktop calendar. 
 It will wake up at roughly 3am everyday, get the time/date from the NTP server, display the appropriate image based on image name, then go back to sleep with the appropriate delay for the next day.
